@@ -72,7 +72,7 @@ body * {
 .light #switch button {
   animation: slide-in 0.2s forwards;
 }
-#switch button:hover{
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 #switch span {
@@ -156,20 +156,18 @@ footer {
 }
 /*animaçao no botao*/
 @keyframes slide-in {
-  from{
+  from {
     left: 0;
   }
   to {
     left: 50%;
   }
 }
- @keyframes slide-back {
-  from{
+@keyframes slide-back {
+  from {
     left: 50%;
   }
-    to {
+  to {
     left: 0;
-
+  }
 }
- }
- 
